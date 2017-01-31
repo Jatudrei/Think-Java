@@ -14,7 +14,7 @@ public class random_number {
         // picking a random number
         Random random = new Random();
         number = random.nextInt(100) + 1;
-        
+
         // prompting the user
         System.out.println("I'm thinking of a number.  The number is an integer, it is at least 1, and it is not" +
                 " greater than 100.  Can you guess it?");
